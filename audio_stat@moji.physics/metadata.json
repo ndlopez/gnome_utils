@@ -1,0 +1,8 @@
+{
+"name":"Display audio jack status",
+"description":"Display headphones or speaker icon at the Top Bar",
+"shell-version":["3.30","40.0"],
+"url":"www.github.com/ndlopez/audio_stat",
+"uuid":"audio_stat@moji.physics",
+"version":0.2
+}

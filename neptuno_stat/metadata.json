@@ -1,0 +1,8 @@
+{
+"name":"$hostname Status",
+"description":"$this PC [neptuno] uptime and VLC status",
+"shell-version":["3.30","40.0"],
+"url":"www.github.com/ndlopez",
+"uuid":"neptuno_stat",
+"version":0.2
+}
