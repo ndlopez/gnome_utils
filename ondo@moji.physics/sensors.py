@@ -1,6 +1,6 @@
 # Read JSON output from <sensors> app and return coreTemp
 import sys,json
-myDir = '/home/diego/.local/share/gnome-shell/extensions/ondo@moji.physics/'
+myDir = '$HOME/.local/share/gnome-shell/extensions/ondo@moji.physics/'
 
 if len(sys.argv) < 3:
     print('Pls! input sensorIndex and keyIndex as params')

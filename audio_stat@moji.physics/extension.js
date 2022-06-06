@@ -36,7 +36,6 @@ class Extension {
             style_class: 'system-status-icon',
         });
 	try{
-	    //var [ok,out,err,exit] = GLib.spawn_command_line_sync('/usr/bin/bash /home/diego/.local/share/gnome-shell/extensions/example@moji.physics/get_status.sh');
 	    var [ok,out,err,exit] = GLib.spawn_command_line_sync('/bin/bash -c "amixer -c 0 cget numid=12,iface=CARD | awk -F\"=\" \'NR==3 {print $2;}\'"');
 	    var statOut = imports.byteArray.toString(out).replace('\n','');
 	    if (statOut.length >2){

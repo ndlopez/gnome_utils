@@ -72,7 +72,6 @@ const MyPopup = GObject.registerClass(
 	    });
 	    //CPU core temp submenu
 	    //core 0
-	    //var [ok,out,err,exit] = GLib.spawn_command_line_sync('/usr/bin/bash /home/diego/.local/share/gnome-shell/extensions/ondo@moji.physics/get_sensors.sh 0 1');
 	    let subItem = new PopupMenu.PopupSubMenuMenuItem(mySensors[0]);
 	    this.menu.addMenuItem(subItem);
 	    //subItem.add_child(new St.Label({text:}));

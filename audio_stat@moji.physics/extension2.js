@@ -23,7 +23,8 @@ function setButtonTxt(){
 	style_class:'system-status-icon',
     });
     var music=String.fromCharCode(9835);
-    var [ok,out,err,exit] = GLib.spawn_command_line_sync('/usr/bin/bash /home/diego/.local/share/gnome-shell/extensions/ondotori/get_status.sh');
+    var shStat = "/get_status.sh";
+    var [ok,out,err,exit] = GLib.spawn_command_line_sync('/bin/bash' + Me.dir.get_path() + shStat);
     if (out.toString().replace('\n','') == 'off'){
 	arr.push(music +'x');
 	log('get_status.sh: Headphones? ' + out.toString().replace('\n',''));}

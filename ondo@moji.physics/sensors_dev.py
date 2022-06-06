@@ -1,6 +1,6 @@
 # Read JSON output from <sensors> app and return coreTemp
 import sys,json
-myDir = '/home/diego/.local/share/gnome-shell/extensions/ondotori/'
+myDir = '$home/.local/share/gnome-shell/extensions/ondotori/'
 #inKey = sys.argv[1]
 #print(inKey)
 sensorIdx = int(sys.argv[1])

@@ -2,7 +2,7 @@
 "name":"CPU temp",
 "description":"Display CPU and NVME temperature as menuBar",
 "shell-version":["3.30","40.0"],
-"url":"www.github.com/ndlopez/",
+"url":"www.github.com/ndlopez/gnome_utils/",
 "uuid":"ondo@moji.physics",
 "version":1.1
 }

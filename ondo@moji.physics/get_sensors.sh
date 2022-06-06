@@ -1,10 +1,11 @@
 #!/bin/bash
-myDir=$HOME/.local/share/gnome-shell/extensions/ondo@moji.physics
+myDir=`pwd`
 
 card=$1
 idx=$2
 
 cards=("coretemp-isa-0000" "nvme-pci-0100" "iwlwifi_1-virtual-0" "acpitz-acpi-0" "BAT1-acpi-0")
+#the following might be diff on your system
 datLen=(6 5 2 2 2)
 offset=(4 5 3 3 3)
 

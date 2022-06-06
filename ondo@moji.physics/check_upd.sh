@@ -1,5 +1,6 @@
 #!/usr/bin/bash
-myDir=$HOME/.local/share/gnome-shell/extensions/ondo@moji.physics
+myDir=`pwd`
+#$HOME/.local/share/gnome-shell/extensions/ondo@moji.physics
 myFile=$myDir/sensors.txt
 
 if [[ -d $myDir ]];then

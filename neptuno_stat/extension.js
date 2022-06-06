@@ -27,7 +27,6 @@ function setButtonTxt(){
     //var [ok,out,err,exit] = GLib.spawn_command_line_sync('/bin/bash -c "ifconfig -a | grep wlp0"');
     //if (out.length > 0){arr.push('Private');}
     const shNetStat = "/net_stat.sh";
-    //var [ok,out,err,exit] = GLib.spawn_command_line_sync('/bin/bash /home/diego/.local/share/gnome-shell/extensions/neptuno_stat/net_stat.sh');
     var [ok,out,err,exit] = GLib.spawn_command_line_sync('/bin/bash ' + Me.dir.get_path() + shNetStat);
     var dat= imports.byteArray.toString(out).replace('\n','');
     var myArr = dat.split(' ');
